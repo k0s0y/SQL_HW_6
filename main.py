@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from models import create_tables, Publisher, Shop, Book, Stock, Sale
 
 db_login = 'postgres'
-db_password = 'Postgres88'
+db_password = '********'
 db_name = 'netology_homework'
 
 DSN = f'postgresql://{db_login}:{db_password}@localhost:5432/{db_name}'
